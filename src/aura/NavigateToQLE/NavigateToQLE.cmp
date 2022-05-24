@@ -1,0 +1,6 @@
+<!-- AURA Component that can be used in a flow/quick action to navigate directly to the "Edit Lines" page of a Quote inside CPQ given the quote record id -->
+<aura:component implements="force:lightningQuickAction,lightning:availableForFlowActions" controller="NavigateToQLECtrl" access="global">
+  <aura:attribute name="recordId" type="String" />
+  <lightning:navigation aura:id="navService"/>
+  <aura:handler name="init" value="{!this}" action="{!c.invoke}"/>
+</aura:component>
