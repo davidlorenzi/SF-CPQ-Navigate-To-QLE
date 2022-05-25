@@ -1,0 +1,3 @@
+<design:component label="Navigate to Quote Line Editor">
+   <design:attribute name="recordId" label="Quote ID" />
+</design:component>
